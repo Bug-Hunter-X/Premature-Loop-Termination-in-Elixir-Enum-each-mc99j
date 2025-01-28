@@ -1,0 +1,3 @@
+# Elixir Enum.each Bug
+
+This repository demonstrates a common error in Elixir when using `Enum.each` with `throw`.  The example shows how `throw` inside `Enum.each` will prematurely stop the iteration, even though it is within an `if` conditional.  The solution shows the proper way to handle such situations using `Enum.for` or exception handling outside the `Enum.each` loop.  This showcases the need for a deeper understanding of Elixir's exception handling and the behavior of `Enum.each`.
